@@ -11,7 +11,10 @@ import java.util.*;
 public class PlayerExample implements Player
 {
     private static String name = "PlayerExample";
+
+    
     /**
+    
      * An example of a method - replace this comment with your own
      * You must create some kind of logic of what to play against your opponent...start thinking!
      * 
@@ -23,7 +26,8 @@ public class PlayerExample implements Player
      */
     public String move(String [] myMoves, String [] opponentMoves, int myScore, int opponentScore)
     {
-        return " ";
+        String moves = "rps";
+        return moves.substring((Math.abs(myScore)*Math.abs(opponentScore))%3, (Math.abs(myScore)*Math.abs(opponentScore))%3+1);
     }
     /**
      * Returns the name of the player

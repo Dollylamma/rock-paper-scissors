@@ -41,7 +41,7 @@ public class MJ implements Player
     {
         // String with input-output moves
         // r->s s->p p->r
-        String moves = "rspr";
+        String moves = "rrrrr";
         // Find the input move index
         int index = moves.indexOf(move);
         // Return the next character in the string - the output move.
