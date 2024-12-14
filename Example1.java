@@ -1,4 +1,4 @@
-import java.util.*;
+rimport java.util.*;
 /**
  * Example1 Player will first play rock, then all scissors
  */
